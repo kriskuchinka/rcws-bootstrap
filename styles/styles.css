@@ -1,6 +1,9 @@
 /* Nav Bar Styling */
-.navbar {
-  padding: 1rem;
+nav.navbar {
+  /* padding: 1rem; */
+  background-color: aqua !important;
+  /* color: #ffffff !important; */
+  /* text-align: center !important; */
 }
 
 .navbar-toggler {
@@ -20,4 +23,9 @@
     /* align-items: center; */
     justify-content: center;
     color: #4B0082;
+}
+
+/* Jumbotron Styling */
+.custom-jumbotron {
+    background-color: #4B0082 !important;
 }
