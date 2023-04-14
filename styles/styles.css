@@ -1,9 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3vw;
+}
+
+header h3 {
+  font-size: 2.4vw;
+}
+
 /* Nav Bar Styling */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav.navbar {
-  /* padding: 1rem; */
-  background-color: aqua !important;
+  background-color: #4b0082 !important;
   /* color: #ffffff !important; */
-  /* text-align: center !important; */
 }
 
 .navbar-toggler {
@@ -18,14 +34,10 @@ nav.navbar {
 }
 
 .heading {
-    display: flex;
-    /* align-content: center; */
-    /* align-items: center; */
-    justify-content: center;
-    color: #4B0082;
+  color: #4b0082;
 }
 
 /* Jumbotron Styling */
 .custom-jumbotron {
-    background-color: #4B0082 !important;
+  background-color: #ffffff !important;
 }
