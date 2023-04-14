@@ -12,14 +12,19 @@ header h3 {
 }
 
 /* Nav Bar Styling */
-nav {
+.navigation {
   display: flex;
   justify-content: center;
 }
 
+.nav-link {
+    color: #FFFFFF !important;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
 nav.navbar {
   background-color: #4b0082 !important;
-  /* color: #ffffff !important; */
 }
 
 .navbar-toggler {
