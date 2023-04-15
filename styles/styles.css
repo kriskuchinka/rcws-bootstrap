@@ -39,16 +39,21 @@ nav.navbar {
   background: transparent;
 }
 
+span.navbar-toggler-icon {
+  color: #fff; /* set the background color to white */
+}
+/* 
 .navbar-toggler-icon {
+
   width: 1.5rem;
   height: 1.5rem;
   background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="white" stroke-width="3" stroke-linecap="round" d="M 2.5,7.5 L 27.5,7.5 M 2.5,15 L 27.5,15 M 2.5,22.5 L 27.5,22.5"/></svg>');
   border-color: white;
-  /* background-image: none !important;
+  background-image: none !important;
   border-color: #FFFFFF !important;
   box-shadow: none !important;
-  background-color: #4b0082 !important; */
-}
+  background-color: #4b0082 !important;
+} */
 
 .heading {
   color: #4b0082;
@@ -57,4 +62,8 @@ nav.navbar {
 /* Jumbotron Styling */
 .custom-jumbotron {
   background-color: #ffffff !important;
+}
+
+.jumbotron {
+    padding: 1em 2em !important;
 }
