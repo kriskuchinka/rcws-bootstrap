@@ -23,9 +23,9 @@ header h3 {
     justify-content: space-around; */
 }
 
-nav.navbar {
-  background-color: #4b0082 !important;
-}
+/* nav.navbar {
+  /* background-color: #4b0082 !important; */
+/* }  */
 
 .navbar-nav {
     display: flex !important;
@@ -41,7 +41,12 @@ nav.navbar {
 .navbar-toggler-icon {
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url('data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="white" stroke-width="3" stroke-linecap="round" d="M 2.5,7.5 L 27.5,7.5 M 2.5,15 L 27.5,15 M 2.5,22.5 L 27.5,22.5"/></svg>');
+  border-color: white;
+  /* background-image: none !important;
+  border-color: #FFFFFF !important;
+  box-shadow: none !important;
+  background-color: #4b0082 !important; */
 }
 
 .heading {
