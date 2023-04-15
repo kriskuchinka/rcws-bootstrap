@@ -27,6 +27,12 @@ nav.navbar {
   background-color: #4b0082 !important;
 }
 
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
 .navbar-toggler {
   border: none;
   background: transparent;
