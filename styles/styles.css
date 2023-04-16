@@ -64,6 +64,21 @@ span.navbar-toggler-icon {
   background-color: #ffffff !important;
 }
 
+/* Call Today Section */
+.call-today {
+  color:#4b0082;
+}
+
 .jumbotron {
     padding: 1em 2em !important;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #4b0082 !important;
+}
+
+/* Footer Styling */
+footer {
+  color: #4b0082;
 }
